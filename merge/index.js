@@ -25,5 +25,5 @@ function merge (left, right){
   return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 }
 
-const array = [38, 27, 43, 3, 9, 82, 10];
+const array = [38, 27, 43, 3, 14, 82, 10];
 console.log(mergeSort(array));
